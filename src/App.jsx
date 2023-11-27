@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/landing/Index";
 import PlantingSeason from "./pages/PlantingSeason";
-import AboutUs from "./pages/AboutUs.JSX";
+import AboutUs from "./pages/AboutUs";
 import Learn from "./pages/Learn";
 
 function App() {
