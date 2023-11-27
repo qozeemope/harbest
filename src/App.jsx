@@ -3,6 +3,7 @@ import Index from "./pages/landing/Index";
 import PlantingSeason from "./pages/PlantingSeason";
 import AboutUs from "./pages/AboutUs";
 import Learn from "./pages/Learn";
+import AccountIndex from "./pages/auth/Index";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path="/planting-season" element={<PlantingSeason />} />
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="learn" element={<Learn />} />
+          <Route path="account-setup" element={<AccountIndex />} />
         </Routes>
       </BrowserRouter>
     </>

@@ -22,9 +22,12 @@ function Navbar() {
             <Link to="/learn">Learn</Link>
           </li>
         </ul>
-        <button className="bg-[#408D03] text-white w-[12.43rem] h-[2.75rem] rounded-[0.312rem] text-[1.25rem] font-medium ">
-          Get report
-        </button>
+        <Link
+          to="/account-setup"
+          className="bg-[#408D03] text-white w-[12.43rem] h-[2.75rem] rounded-[0.312rem] text-[1.25rem] font-medium flex items-center justify-center"
+        >
+          <p>Get report</p>
+        </Link>
       </nav>
     </div>
   );

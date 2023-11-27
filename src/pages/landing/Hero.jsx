@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import bg from "../../assets/bg.svg";
 
 function Hero() {
@@ -21,9 +22,12 @@ function Hero() {
         placeholder="What do you want to plant?"
         className="bg-white py-[1.37rem] w-full border border-[#403E3E] shadow-xl pl-[2.19rem] "
       />
-      <button className="bg-[#408D03] text-white w-[12.43rem] h-[2.75rem] rounded-[0.312rem] text-[1.25rem] font-medium mt-[2rem] ">
-        Get report
-      </button>
+      <Link
+        to="/account-setup"
+        className="bg-[#408D03] text-white w-[12.43rem] h-[2.75rem] rounded-[0.312rem] text-[1.25rem] font-medium mt-[2rem] flex items-center justify-center "
+      >
+        <p>Get report</p>
+      </Link>
     </div>
   );
 }
